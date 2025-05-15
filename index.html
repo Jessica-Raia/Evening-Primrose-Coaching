@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <link rel="icon" href="src/bloem.jpg"> <!--favicon-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 </head>
 <body>
-    <!--nav menu-->
+<!--nav menu-->
     <header>
         <nav class="nav-menu">
-            <h1>Home</h1>
+            <h1 id="home">Home</h1>
             <h1>Aanbod</h1>
             <h1>Detail</h1>
             <h1>CV</h1>
             <h1>Referenties</h1>
         </nav>
     </header>
-    <!--ham menu-->
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="hamburger">
-        <i class="fa fa-bars"></i>
-    </label>
+
+<!--ham menu-->
+
+    
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <i class="fa fa-bars"></i>
+            <img src="src/bloem.jpg" alt="Evening Primrose">
+        </label>
+        
 
     <nav class="ham-menu">
-        <p>CARL VAN MOL</p>
-        <p>+324 86 51 79 62</p>
-        <p>carl.van.mol@gmail.com</p>
-    </nav>
+    <!-- Sluitknop -->
+    <label for="menu-toggle" class="close-btn">
+        <i class="fa fa-times"></i>
+        <img src="src/bloem.jpg" class="logo-ham" alt="Evening Primrose">
+    </label>
+            <p>CARL VAN MOL</p>
+            <p>+324 86 51 79 62</p>
+            <p>carl.van.mol@gmail.com</p>
+        </nav>
+    
     
 <!--footer-->
 <footer>

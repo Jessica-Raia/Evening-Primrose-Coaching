@@ -1,5 +1,11 @@
+@font-face{
+    font-family: Roboto;
+    src: url(src/Roboto-Regular.ttf);
+}
+
+
 body{
-    background-color: #faecd8;
+    background-color: #f7f4f1;
 }
 
 /* nav-menu*/
@@ -8,8 +14,7 @@ header{
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 300px;
-    
-    
+    font-family: Roboto;
 }
 
 .nav-menu{
@@ -29,8 +34,18 @@ header{
 }
 
 .nav-menu h1:hover{
-    background-color: #FFC600;
+    background-color: #ffc80073;
     
+}
+
+#home{
+    background-color: #FFC600;
+    height: 50px;
+    line-height: 50px;
+    margin:0;
+    width: 150px;;
+    text-align: center;
+    cursor: default;
 }
 
 
@@ -42,28 +57,69 @@ header{
 
 #menu-toggle:checked + .hamburger + .ham-menu {
     display: block;
+    width: 250px;
+    background-color: #4E8557;
+    height: 100vh;
+    transform: translateX(0);
 }
 
-.hamburger{
+.hamburger {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     cursor:pointer;
     font-size: 50px;
     background-color: #4E8557;
     line-height: 100vh;
-    height: 42vw;
-    width: 195px;
+    height: 43vw;
+    width: 100px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 53px;
+    margin-top: -60px;
+    margin-left: -20px;
+    padding-bottom: 42px;
+    
 }
+
+
+
 
 .ham-menu{
     display: none;
     position: absolute;
+    top: 0;
     text-align: center;
-    top:250px;
-    padding:15px
+    background-color: #4E8557;
+    height: 100vh;
+     font-family: Roboto;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: 0.3s ease-in-out;
+}
+
+/* Sluitknop in menu */
+.close-btn {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-top: 20px;
+}
+
+img{
+    width:50px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.logo-ham{
+    width: 100px;
+    height: auto;
+    padding-top: 50px;
+    padding-right: 35px;
+    padding-left: 12px;
+    padding-bottom: 30px;
 }
 
 /*footer*/
@@ -72,11 +128,10 @@ h2{
     background-color: #4e855765;
     height: 50px;
     line-height: 50px;
-    margin-left: 200px;
+    margin-left: 75px;
     margin-top: -50px;
-    
+    margin-bottom: 0;
+    font-family: Roboto;
 }
-
-
 
 
