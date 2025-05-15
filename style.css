@@ -84,16 +84,16 @@ header{
 
 
 .ham-menu{
-    display: none;
-    position: absolute;
+    
+    position: fixed;
     top: 0;
     text-align: center;
     background-color: #4E8557;
     height: 100vh;
      font-family: Roboto;
-    overflow: hidden;
-    white-space: nowrap;
-    transition: 0.3s ease-in-out;
+    transition: 0.28s ease-in-out;
+    transform: translateX(-100%);
+    
 }
 
 /* Sluitknop in menu */
@@ -132,6 +132,7 @@ h2{
     margin-top: -50px;
     margin-bottom: 0;
     font-family: Roboto;
+    position: relative;
 }
 
 
