@@ -128,7 +128,7 @@ img{
 }
 
 /*footer*/
-h2{
+.footer{
     text-align: center;
     background-color: #4e855765;
     height: 50px;
@@ -142,5 +142,15 @@ h2{
     bottom: -27px;
     right: -5px;
 }
+
+/*CV*/
+.cv-algemeen{
+    position: relative;
+    left: 350px;
+    top:-650px;
+    font-family: Roboto;
+    margin-right: 500px;
+}
+
 
 
