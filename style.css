@@ -75,13 +75,13 @@ a{
     font-size: 50px;
     background-color: #4E8557;
     line-height: 100vh;
-    height: 43vw;
+    height: 42vw;
     width: 100px;
     text-align: center;
-    padding-top: 53px;
+    padding-top: 55px;
     margin-top: -60px;
     margin-left: -20px;
-    padding-bottom: 42px;
+    
     
 }
 
@@ -127,6 +127,26 @@ img{
     padding-bottom: 30px;
 }
 
+
+/*tekst*/ 
+.tekst {
+    font-family: Roboto;
+    text-align: center;
+    margin-top: -550px;
+    margin-left: 350px;
+    margin-right: 850px;
+    margin-bottom: 75px;
+    background-color: #ffc80094;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.extra-space{
+    display: block;
+    height: 35px;
+}
+
+
 /*footer*/
 h2{
     text-align: center;
@@ -135,9 +155,12 @@ h2{
     line-height: 50px;
     margin-left: 75px;
     margin-top: -50px;
-    margin-bottom: 0;
     font-family: Roboto;
     position: relative;
+    padding: 15px;
+    font-size: 20px;
+    bottom: -27px;
+    right: -5px;
 }
 
 
