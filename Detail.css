@@ -20,6 +20,8 @@ header{
     font-family: Roboto;
 }
 
+
+
 .nav-menu{
     display: flex;
     gap: 35px;
@@ -349,13 +351,13 @@ header{
     cursor:pointer;
     font-size: 50px;
     background-color: #4E8557;
-    height: 200vw;
+    height: 100vh;
     width: 100px;
     text-align: center;
     padding-top: 55px;
     margin-top: -60px;
     margin-left: -20px;
-    
+    position: fixed;
     
 }
 
@@ -426,19 +428,189 @@ img{
     margin-left: 0;
 }
 
-/*footer*/
-h2{
-    text-align: center;
-    background-color: #4e855765;
-    height: 50px;
-    line-height: 50px;
-    margin-left: 75px;
-    margin-top: -50px;
-    font-family: Roboto;
+/*text-toggle1*/
+
+#text-toggle{
+    display: none;
     position: relative;
-    padding: 15px;
+    left: 300px;
+    top: -575px;
+}
+
+
+
+#text-toggle:checked ~ .visie{
+    display: block;
+    
+}
+
+#text-toggle:checked ~ .text-arrow1 i {
+    transform: rotate(90deg) scale(2);
+}
+
+
+.text-arrow1{
+    position: relative;
+    left: 175px;
+    top:-875px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.text-arrow1 i{
+    color: #FFC600;
+    transform: rotate(0deg) scale(2);
+    transition: transform 0.35s ease;
+}
+
+/*text-toggle2*/
+
+#text-toggle2{
+    display: none;
+}
+
+#text-toggle2:checked ~ .levenswaarden{
+    display: block;
+}
+
+#text-toggle2:checked ~ .text-arrow2 i {
+    transform: rotate(90deg) scale(2);
+}
+
+.text-arrow2{
+    position: relative;
+    left:175px;
+    top: -850px;
+    cursor: pointer;
+}
+
+.text-arrow2 i{
+    color: #FFC600;
+    transform: rotate(0deg) scale(2);
+    transition: transform 0.35s ease;
+}
+
+
+/*text-toggle3*/
+
+#text-toggle3{
+    display: none;
+}
+
+#text-toggle3:checked ~ .rol{
+    display: block;
+}
+
+#text-toggle3:checked ~ .text-arrow3 i {
+    transform: rotate(90deg) scale(2);
+}
+
+.text-arrow3{
+    position: relative;
+    left: 175px;
+    top: -825px;
+    cursor: pointer;
+}
+
+.text-arrow3 i{
+    color: #FFC600;
+    transform: rotate(0deg) scale(2);
+    transition: transform 0.35s ease;
+}
+
+
+/*tekst*/
+
+.extra-space{
+    display: block;
+    height: 35px;
+}
+
+h4{
+    font-family: Roboto;
+}
+
+/*intro*/
+.intro{
+    position: relative;
+    top:-950px;
+    left: 165px;
+    margin-right: 175px;
+    text-align: center;
+}
+
+/*titles*/
+.title1{
+    font-size: 27px;
+    position: relative;
+    left:225px;
+    top:-925px;
+    font-family: Roboto;
+    color: #FFC600;
+}
+
+.title2{
+    font-size: 27px;
+    position: relative;
+    left:225px;
+    top:-900px;
+    font-family: Roboto;
+    color: #FFC600;
+}
+
+.title3{
+    font-size: 27px;
+    position: relative;
+    left:225px;
+    top:-875px;
+    font-family: Roboto;
+    color: #FFC600;
+}
+
+
+
+/*mijn visie*/
+
+.visie{
+    position: relative;
+    top: -650px;
+    left:350px;
+    margin-right: 950px;
+    display:none
+}
+
+/*levenswaarden*/
+.levenswaarden{
+    position: relative;
+    top:-600px;
+    left:350px;
+    margin-right: 950px;
+    display: none;
+    
+}
+
+/*rol*/
+.rol{
+    position: relative;
+    top: -500px;
+    left:350px;
+    margin-right: 950px;
+    margin-bottom: -250px;
+    display: none;
+}
+
+/*footer*/
+footer {
+    background-color: #4e855765;
+    padding: 15px 0;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+footer h2 {
+    margin: 0;
     font-size: 12px;
-    margin-bottom: 0;
 }
 
 
