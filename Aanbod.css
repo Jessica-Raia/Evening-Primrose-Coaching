@@ -1,15 +1,12 @@
 @font-face{
-    font-family: Roboto;
-    src: url(src/Roboto-Regular.ttf);
+    font-family: LGC;
+    src: url(src/LGC.ttf);
 }
 
 /*---------GROOT SCHERM ----------*/
 
 @media (min-width: 990px){
 
-body{
-    background-color: #f7f4f1;
-}
 
 /* nav-menu*/
 header{
@@ -17,7 +14,7 @@ header{
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 300px;
-    font-family: Roboto;
+    font-family: LGC;
 }
 
 .nav-menu{
@@ -84,10 +81,8 @@ a{
     margin-top: -60px;
     margin-left: -20px;
     padding-bottom: 42px;
-    
+    position: fixed;
 }
-
-
 
 
 .ham-menu{
@@ -97,7 +92,7 @@ a{
     text-align: center;
     background-color: #4E8557;
     height: 100vh;
-     font-family: Roboto;
+     font-family: LGC;
     transition: 0.28s ease-in-out;
     transform: translateX(-100%);
     
@@ -133,116 +128,75 @@ img{
     display: none;
 }
 
-/*meer info*/
-
-.pdf{
-    margin-left: 900px;
-    font-family: Roboto;
-    position: relative;
-    font-size: 50px;
-    top:-100px
-}
-
-.pdf:hover{
-    color: #FFC600;
-}
-
-/*container*/
-
-.container{
-    background-color: #ffc80077;
-    margin-left: 275px;
-    margin-right: 10px;
-    position: relative;
-    top:-200px;
-    padding-right: 25px;
-}
-
-hr{
-    border: 2px solid black;
-    margin-top: 20px;
-    margin-right: -25px;
-}
-
-.arrow1 {
-    font-size: 20px;
-    margin: 75px -25px 50px -25px
-}
-
-.arrow2{
-    font-size: 15px;
-    margin-top:60px;
-    margin-left: -35px;
-    margin-right: -35px;
-    margin-bottom: 50px;
-}
-
-.arrow3{
-    display: none;
-}
-
-
-
-/*tekst leiderschapsbegeleiding*/
-
-.leiderschapsbeg {
+/*TEKST*/
+/* sessies */
+.sessies-container {
+    font-family: LGC;
     display: flex;
-    flex-direction: row;
-    column-gap: 50px;
-    margin-left: 25px;
-    margin-top: -550px;
-    font-family: Roboto;
-   
-}
-
-
-
-.leiderschapsbeg p{
-    background-color: #ffc80094;
-    padding: 10px 25px 25px 10px
-}
-
-.leiderschapsbeg h3{
-    margin-top: 50px;
-}
-
-/*tekst carrièrepad ontdekken*/
-
-.carrierepad{
-    display: flex;
-    flex-direction: row;
-    column-gap: 50px;
-    margin-left: 25px;
-    margin-top: 50px;
-    font-family: Roboto;
-    text-align: left;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 525px;
+    margin-top: 100px;
+    margin-right: 350px;
     
 }
 
-.carrierepad p{
-    background-color: #ffc80094;
-    padding: 10px 25px 50px 10px;
-     
+
+.sessie-box {
+    border: 2px solid #806403;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
-.carrierepad h3{
-    margin-top: 35px;
+.sessie-links {
+    width: 50%;
+    padding-top: 25px;
+    box-sizing: border-box;
+    padding-left:20px;
+    padding-right: -50px;
+    width: 50%;
+    padding-top: 25px;
+    background-color: #ffc80063;
 }
+
+.sessie-rechts{
+    width: 50%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    background-color: #ffc80063;
+}
+
+.sessie-links h3 {
+    margin-top: 0;
+}
+
+.gratis {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.sessie-rechts ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+
 
 /*footer*/
 h2{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     background-color: #4e855765;
-    height: 50px;
     line-height: 50px;
-    margin-left: 75px;
-    margin-top: -50px;
-    font-family: Roboto;
-    position: relative;
+    font-family: LGC;
     padding: 15px;
     font-size: 20px;
-    bottom: -105px;
-    right: -5px;
+    margin: 0;
 }
 
 }
@@ -310,7 +264,7 @@ header{
     text-align: center;
     background-color: #4E8557;
     height: 20vh;
-    font-family: Roboto;
+    font-family: LGC;
     transition: 0.28s ease-in-out;
     transform: translateX(-100%);
     font-size: 12px;
