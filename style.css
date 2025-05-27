@@ -76,7 +76,7 @@ a{
     cursor:pointer;
     font-size: 50px;
     background-color: #4E8557;
-    height: 45vw;
+    height: 100vh;
     width: 100px;
     text-align: center;
     padding-top: 55px;
@@ -95,10 +95,10 @@ a{
     text-align: center;
     background-color: #4E8557;
     height: 50vh;
-     font-family: LGC;
+    font-family: LGC;
     transition: 0.28s ease-in-out;
     transform: translateX(-100%);
-    
+    height: 100vh;
 }
 
 /* Sluitknop in menu */
@@ -163,7 +163,7 @@ img{
 /*footer*/
 h2{
     text-align: center;
-    background-color: #4e855765;
+    background-color: #4e8557a6;
     height: 50px;
     line-height: 50px;
     margin-left: 75px;
