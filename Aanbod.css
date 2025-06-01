@@ -129,6 +129,31 @@ img{
 }
 
 /*TEKST*/
+
+/*intro*/
+.intro{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 325px;
+    margin-right: 70px;
+    font-size: 20px;
+    margin-bottom: 150px;
+    font-family: LGC;
+}
+
+/*hoofd-titels*/
+.hoofd-titels{
+    margin-top: -50px;
+}
+
+/*algemeen info*/
+
+.alg-info{
+    margin-top: -25px;
+}
+
+
+
 /* sessies */
 
 .sessies-parent {
