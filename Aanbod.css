@@ -130,14 +130,23 @@ img{
 
 /*TEKST*/
 /* sessies */
+
+.sessies-parent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px; 
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+
 .sessies-container {
     font-family: LGC;
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    margin-left: 525px;
-    margin-top: 100px;
-    margin-right: 350px;
+    gap: 30px;
+    width: 600px;
     
 }
 
