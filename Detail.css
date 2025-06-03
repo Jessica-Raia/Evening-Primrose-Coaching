@@ -314,9 +314,7 @@ footer {
     font-size: 15px;
     position: relative;
     left:8px;
-    top:29px
-    
-    
+    top:29px 
 }
 
 }
@@ -441,26 +439,25 @@ img{
 
 #text-toggle:checked ~ .visie{
     display: block;
+
     
 }
 
 #text-toggle:checked ~ .text-arrow1 i {
-    transform: rotate(90deg) scale(2);
+    transform: rotate(90deg) scale(1.5);
 }
 
 
 .text-arrow1{
-    position: relative;
-    left: 175px;
-    top:-875px;
-    display: inline-block;
+    margin-left: 175px;
+    margin-top: -250px;
     cursor: pointer;
     
 }
 
 .text-arrow1 i{
-    color: #FFC600;
-    transform: rotate(0deg) scale(2);
+    color: #ffc800c0;
+    transform: rotate(0deg) scale(1.5);
     transition: transform 0.35s ease;
 }
 
@@ -475,19 +472,17 @@ img{
 }
 
 #text-toggle2:checked ~ .text-arrow2 i {
-    transform: rotate(90deg) scale(2);
+    transform: rotate(90deg) scale(1.5);
 }
 
 .text-arrow2{
-    position: relative;
-    left:175px;
-    top: -850px;
+    margin-left: 175px;
     cursor: pointer;
 }
 
 .text-arrow2 i{
-    color: #FFC600;
-    transform: rotate(0deg) scale(2);
+    color: #ffc800c0;
+    transform: rotate(0deg) scale(1.5);
     transition: transform 0.35s ease;
 }
 
@@ -503,19 +498,18 @@ img{
 }
 
 #text-toggle3:checked ~ .text-arrow3 i {
-    transform: rotate(90deg) scale(2);
+    transform: rotate(90deg) scale(1.5);
 }
 
 .text-arrow3{
-    position: relative;
-    left: 175px;
-    top: -825px;
+    
     cursor: pointer;
+    margin-left: 175px;
 }
 
 .text-arrow3 i{
-    color: #FFC600;
-    transform: rotate(0deg) scale(2);
+    color: #ffc800c0;
+    transform: rotate(0deg) scale(1.5);
     transition: transform 0.35s ease;
 }
 
@@ -534,38 +528,38 @@ h4{
 /*intro*/
 .intro{
     position: relative;
-    top:-950px;
-    left: 165px;
-    margin-right: 175px;
-    text-align: center;
+    margin-top: 20px;
+    margin-left: 155px;
+    margin-right: 10px;
+    font-size: 12px;
+    margin-bottom: 150px;
 }
 
 /*titles*/
 .title1{
-    font-size: 27px;
-    position: relative;
-    left:225px;
-    top:-925px;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 200px;
+    margin-bottom: 75px;
     font-family: LGC;
-    color: #FFC600;
+    color: #ffc800c0;
 }
 
 .title2{
-    font-size: 27px;
-    position: relative;
-    left:225px;
-    top:-900px;
+    font-size: 20px;
+    margin-top: -45px;
+    margin-left: 200px;
+    margin-bottom: 75px;
     font-family: LGC;
-    color: #FFC600;
+    color: #ffc800c0;
 }
 
 .title3{
-    font-size: 27px;
-    position: relative;
-    left:225px;
-    top:-875px;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 200px;
     font-family: LGC;
-    color: #FFC600;
+    color: #ffc800c0;
 }
 
 
@@ -573,44 +567,42 @@ h4{
 /*mijn visie*/
 
 .visie{
-    position: relative;
-    top: -650px;
-    left:350px;
-    margin-right: 950px;
-    display:none
+    margin-left: 250px;
+    margin-right: 450px;
+    display:none;
+    margin-bottom: 50px;
+    font-size: 12px;
 }
 
 /*levenswaarden*/
 .levenswaarden{
-    position: relative;
-    top:-600px;
-    left:350px;
-    margin-right: 950px;
+    margin-left: 400px;
+    margin-right: 450px;
     display: none;
-    
+    margin-bottom: 50px;
+    font-size: 12px;
 }
 
 /*rol*/
 .rol{
-    position: relative;
-    top: -500px;
-    left:350px;
-    margin-right: 950px;
-    margin-bottom: -250px;
+    margin-left: 400px;
+    margin-right: 450px;
     display: none;
+    font-size: 12px;
+   
 }
 
 /*footer*/
 footer {
-    background-color: #4e855765;
-    padding: 15px 0;
     text-align: center;
+    background-color: #4e8557a6;
+    line-height: 15px;
     font-family: LGC;
-}
-
-footer h2 {
-    margin: 0;
-    font-size: 12px;
+    padding: 15px 15px 15px 85px;
+    font-size: 8px;
+    position: relative;
+    left:8px;
+    top:123px 
 }
 
 
