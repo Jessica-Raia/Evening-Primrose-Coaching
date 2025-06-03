@@ -299,9 +299,9 @@ h4{
 .rol{
     margin-left: 400px;
     margin-right: 450px;
-    margin-bottom: -250px;
     display: none;
     font-size: 17px;
+   
 }
 
 /*footer*/
@@ -312,7 +312,9 @@ footer {
     font-family: LGC;
     padding: 15px;
     font-size: 15px;
-    margin-top: 275px;
+    position: relative;
+    left:8px;
+    top:29px
     
     
 }

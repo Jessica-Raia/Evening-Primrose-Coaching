@@ -68,23 +68,21 @@ a{
     transform: translateX(0);
 }
 
-
-
 .hamburger {
     display: flex;
     flex-direction: column;
     cursor:pointer;
     font-size: 50px;
     background-color: #4E8557;
+    line-height: 100vh;
     height: 100vh;
     width: 100px;
     text-align: center;
-    padding-top: 55px;
+    padding-top: 53px;
     margin-top: -60px;
     margin-left: -20px;
-    margin-bottom: -100px;
-    
-    
+    padding-bottom: 42px;
+    position: fixed;
 }
 
 
@@ -94,11 +92,11 @@ a{
     top: 0;
     text-align: center;
     background-color: #4E8557;
-    height: 50vh;
+    height: 100vh;
     font-family: LGC;
     transition: 0.28s ease-in-out;
     transform: translateX(-100%);
-    height: 100vh;
+    
 }
 
 /* Sluitknop in menu */
@@ -136,11 +134,10 @@ img{
 .tekst {
     font-family: LGC;
     text-align: center;
-    margin-top: -700px;
-    margin-left: 350px;
-    margin-right: 850px;
+    margin-left: 300px;
+    margin-right: 550px;
     margin-bottom: 75px;
-    background-color: #ffc80094;
+    background-color: #ffc80063;
     padding: 25px;
     font-size: 18px;
     
@@ -155,25 +152,22 @@ img{
 .hoofd-img{
     position: relative;
     left: 1400px;
-    transform: scale(9);
-    top: -350px;
+    transform: scale(7);
+    top: 250px
 }
 
 
 /*footer*/
-h2{
+footer {
     text-align: center;
     background-color: #4e8557a6;
-    height: 50px;
-    line-height: 50px;
-    margin-left: 75px;
-    margin-top: -50px;
+    line-height: 15px;
     font-family: LGC;
-    position: relative;
     padding: 15px;
-    font-size: 20px;
-    right: -5px;
-    bottom: -17px;
+    font-size: 15px;
+    position: relative;
+    top:43px;
+    left: 8px
     
 }
 
