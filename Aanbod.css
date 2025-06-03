@@ -68,20 +68,18 @@ a{
 }
 
 .hamburger {
+    position: fixed;           
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     cursor:pointer;
     font-size: 50px;
     background-color: #4E8557;
-    line-height: 100vh;
-    height: 100vh;
     width: 100px;
+    height: 100vh;             
     text-align: center;
-    padding-top: 53px;
-    margin-top: -60px;
-    margin-left: -20px;
-    padding-bottom: 42px;
-    position: fixed;
+    padding-top: 60px;
 }
 
 
@@ -204,6 +202,7 @@ img{
 .sessie-links h3 {
     margin-top: 0;
 }
+
 
 .gratis {
     font-style: italic;
