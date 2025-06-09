@@ -361,6 +361,7 @@ img{
 .intro{
     position: relative;
     left: 160px;
+    top: 50px;
     margin-right: 175px;
     font-size: 13px;
     margin-bottom: 150px;
@@ -387,6 +388,7 @@ img{
     background-color: #ffc80075;
     width: 200px;
     padding: 10px;
+    margin-top: 25px;
    
 }
 

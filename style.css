@@ -323,4 +323,10 @@ footer {
     
 }
 
+.icons img{
+    height: 30px;
+    width: auto;
+    margin-top: -1px;
+}
+
 }

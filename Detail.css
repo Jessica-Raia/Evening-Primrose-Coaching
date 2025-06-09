@@ -627,6 +627,11 @@ footer {
     top: 193px;
     overflow-x: hidden;
 }
+.icons img{
+    height: 30px;
+    width: auto;
+    margin-top: -1px;
+}
 
 
 }

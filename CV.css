@@ -139,11 +139,19 @@ img{
     font-family: LGC;
     position: relative;
     padding: 15px;
-    font-size: 20px;
+    font-size: 23px;
     left:8px;
-    top: 16px;
+    top: 61px;
+    padding-bottom: 50px;
 }
 
+.icons img{
+    height: 30px;
+    width: auto;
+    margin-top: -1px;
+    position: relative;
+    left: 780px;
+}
 
 
 
@@ -299,6 +307,12 @@ footer {
     left:8px;
     top: 193px;
     overflow-x: hidden;
+}
+
+.icons img{
+    height: 30px;
+    width: auto;
+    margin-top: -1px;
 }
 
 
