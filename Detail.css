@@ -317,6 +317,12 @@ footer {
     top:29px 
 }
 
+.icons img{
+    height: 30px;
+    width: auto;
+    margin-top: -1px;
+}
+
 }
 
 /*---------KLEIN SCHERM ----------*/
@@ -449,9 +455,10 @@ img{
 
 
 .text-arrow1{
-    margin-left: 175px;
-    margin-top: -250px;
     cursor: pointer;
+    position: relative;
+    left: 160px;
+    top: -120px;
     
 }
 
@@ -476,8 +483,10 @@ img{
 }
 
 .text-arrow2{
-    margin-left: 175px;
     cursor: pointer;
+    position: relative;
+    left: 160px;
+    top: -120px;
 }
 
 .text-arrow2 i{
@@ -504,7 +513,9 @@ img{
 .text-arrow3{
     
     cursor: pointer;
-    margin-left: 175px;
+    position: relative;
+    left: 160px;
+    top: -120px;
 }
 
 .text-arrow3 i{
@@ -533,33 +544,38 @@ h4{
     margin-right: 10px;
     font-size: 12px;
     margin-bottom: 150px;
+    overflow-x: hidden;
 }
 
 /*titles*/
 .title1{
     font-size: 20px;
-    margin-top: -40px;
-    margin-left: 200px;
-    margin-bottom: 75px;
+    position: relative;
+    left: 200px;
+    top: -155px;
     font-family: LGC;
     color: #ffc800c0;
+    overflow-x: hidden;
 }
 
 .title2{
     font-size: 20px;
-    margin-top: -45px;
-    margin-left: 200px;
-    margin-bottom: 75px;
+    position: relative;
+    left: 200px;
+    top: -155px;
     font-family: LGC;
     color: #ffc800c0;
+    overflow-x: hidden;
 }
 
 .title3{
     font-size: 20px;
-    margin-top: -40px;
-    margin-left: 200px;
+    position: relative;
+    left: 200px;
+    top: -155px;
     font-family: LGC;
     color: #ffc800c0;
+    overflow-x: hidden;
 }
 
 
@@ -567,29 +583,35 @@ h4{
 /*mijn visie*/
 
 .visie{
-    margin-left: 250px;
-    margin-right: 450px;
+    position: relative;
+    left: 155px;
+    top: -155px;
+    margin-right: 175px;
     display:none;
-    margin-bottom: 50px;
     font-size: 12px;
+    overflow-x: hidden;
 }
 
 /*levenswaarden*/
 .levenswaarden{
-    margin-left: 400px;
-    margin-right: 450px;
+    position: relative;
+    left: 155px;
+    top: -155px;
+    margin-right: 175px;
     display: none;
-    margin-bottom: 50px;
     font-size: 12px;
+    overflow-x: hidden;
 }
 
 /*rol*/
 .rol{
-    margin-left: 400px;
-    margin-right: 450px;
+    position: relative;
+    left: 155px;
+    top: -155px;
+    margin-right: 175px;
     display: none;
     font-size: 12px;
-   
+   overflow-x: hidden;
 }
 
 /*footer*/
@@ -602,7 +624,8 @@ footer {
     font-size: 8px;
     position: relative;
     left:8px;
-    top:123px 
+    top: 193px;
+    overflow-x: hidden;
 }
 
 
