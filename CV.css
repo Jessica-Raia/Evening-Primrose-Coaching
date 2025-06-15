@@ -302,6 +302,13 @@ img{
     
 }
 
+}
+
+.intro{
+    background-color:#ffc80043 ;
+    padding: 5px;
+}
+
 .cv-algemeen{
     position: relative;
     left: 160px;
