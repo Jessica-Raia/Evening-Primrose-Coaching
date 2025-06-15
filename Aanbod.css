@@ -126,13 +126,24 @@ img{
     display: none;
 }
 
+#toTopBtn{
+    position: fixed;
+    margin-left: 1650px;
+    margin-top: 725px;
+    background-color: #ffc8008b;
+    font-family: LGC;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
 /*TEKST*/
 
 /*intro*/
 .intro{
     position: relative;
     margin-top: 100px;
-    margin-left: 325px;
+    margin-left: 275px;
     margin-right: 70px;
     font-size: 20px;
     margin-bottom: 150px;
@@ -162,7 +173,7 @@ hr{
     justify-content: center;
     align-items: flex-start;
     gap: 100px; 
-    margin-left: 250px;
+    margin-left: 125px;
     margin-top: 150px;
 }
 
@@ -357,11 +368,15 @@ img{
 
 /*TEKST*/
 
+.container{
+    margin-top: 100px;
+}
+
 /*intro*/
 .intro{
     position: relative;
     left: 160px;
-    top: 50px;
+    top: -25px;
     margin-right: 175px;
     font-size: 13px;
     margin-bottom: 150px;
@@ -436,8 +451,9 @@ footer {
     padding: 15px 15px 15px 85px;
     font-size: 8px;
     position: relative;
-    top:200px;
+    top: 151px;
     left: 8px;
+    
     
 }
     

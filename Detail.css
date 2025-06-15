@@ -330,7 +330,7 @@ footer {
 @media (max-width: 989px){
 
 body{
-    background-color: #f7f4f1;
+    overflow-x: hidden;
 }
 
 header{
@@ -539,12 +539,11 @@ h4{
 /*intro*/
 .intro{
     position: relative;
-    margin-top: 20px;
-    margin-left: 155px;
-    margin-right: 10px;
+    top: 75px;
+    left: 155px;
+    margin-right: 150px;
     font-size: 12px;
-    margin-bottom: 150px;
-    overflow-x: hidden;
+    margin-bottom: 325px;
 }
 
 /*titles*/
@@ -555,7 +554,7 @@ h4{
     top: -155px;
     font-family: LGC;
     color: #ffc800c0;
-    overflow-x: hidden;
+    
 }
 
 .title2{
@@ -565,7 +564,7 @@ h4{
     top: -155px;
     font-family: LGC;
     color: #ffc800c0;
-    overflow-x: hidden;
+    
 }
 
 .title3{
@@ -575,7 +574,7 @@ h4{
     top: -155px;
     font-family: LGC;
     color: #ffc800c0;
-    overflow-x: hidden;
+    
 }
 
 
@@ -589,7 +588,7 @@ h4{
     margin-right: 175px;
     display:none;
     font-size: 12px;
-    overflow-x: hidden;
+    
 }
 
 /*levenswaarden*/
@@ -600,7 +599,7 @@ h4{
     margin-right: 175px;
     display: none;
     font-size: 12px;
-    overflow-x: hidden;
+    
 }
 
 /*rol*/
@@ -611,7 +610,7 @@ h4{
     margin-right: 175px;
     display: none;
     font-size: 12px;
-   overflow-x: hidden;
+  
 }
 
 /*footer*/
@@ -623,9 +622,9 @@ footer {
     padding: 15px 15px 15px 85px;
     font-size: 8px;
     position: relative;
+    top: 15px;
     left:8px;
-    top: 193px;
-    overflow-x: hidden;
+    
 }
 .icons img{
     height: 30px;
