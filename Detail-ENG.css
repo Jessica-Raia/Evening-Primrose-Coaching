@@ -1,0 +1,636 @@
+@font-face{
+    font-family: LGC;
+    src: url(src/LGC.ttf);
+}
+
+/*---------GROOT SCHERM ----------*/
+
+@media (min-width: 990px){
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+/* nav-menu*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 300px;
+    font-family: LGC;
+}
+
+
+
+.nav-menu{
+    display: flex;
+    gap: 35px;
+}
+
+.nav-menu h1{
+    height: 50px;         
+    line-height: 50px;     
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0; 
+    width: 150px;
+    text-align: center;
+    
+}
+
+.nav-menu h1:hover{
+    background-color: #ffc80073;
+    
+}
+
+#Detail{
+    background-color: #FFC600;
+    height: 50px;
+    line-height: 50px;
+    margin:0;
+    width: 150px;;
+    text-align: center;
+    cursor: default;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*ham-menu*/
+
+ #menu-toggle{
+    display: none;
+}
+
+#menu-toggle:checked + .hamburger + .ham-menu {
+    display: block;
+    width: 250px;
+    background-color: #4E8557;
+    transform: translateX(0);
+    height: 100vh;
+}
+
+.hamburger {
+    position: fixed;           
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+    font-size: 50px;
+    background-color: #4E8557;
+    width: 100px;
+    height: 100vh;             
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.nav-ham-menu{
+    display: none;
+}
+
+
+.ham-menu{
+    
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: #4E8557;
+    font-family: LGC;
+    transition: 0.28s ease-in-out;
+    transform: translateX(-100%);
+    height: 100vh; 
+}
+
+/* Sluitknop in menu */
+.close-btn {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-top: 20px;
+}
+
+img{
+    width:50px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.logo-ham{
+    width: 100px;
+    height: auto;
+    padding-top: 50px;
+    padding-right: 35px;
+    padding-left: 12px;
+    padding-bottom: 30px;
+}
+
+/*text-toggle1*/
+
+#text-toggle{
+    display: none;
+    position: relative;
+    left: 300px;
+    top: -575px;
+}
+
+
+
+#text-toggle:checked ~ .visie{
+    display: block;
+
+    
+}
+
+#text-toggle:checked ~ .text-arrow1 i {
+    transform: rotate(90deg) scale(3);
+}
+
+
+.text-arrow1{
+    
+    margin-top: 50px;
+    margin-left: 350px;
+    cursor: pointer;
+    
+}
+
+.text-arrow1 i{
+    color: #ffc800c0;
+    transform: rotate(0deg) scale(3);
+    transition: transform 0.35s ease;
+}
+
+/*text-toggle2*/
+
+#text-toggle2{
+    display: none;
+}
+
+#text-toggle2:checked ~ .levenswaarden{
+    display: block;
+}
+
+#text-toggle2:checked ~ .text-arrow2 i {
+    transform: rotate(90deg) scale(3);
+}
+
+.text-arrow2{
+    
+    margin-top: -25px;
+    margin-left: 350px;
+    cursor: pointer;
+}
+
+.text-arrow2 i{
+    color: #ffc800c0;
+    transform: rotate(0deg) scale(3);
+    transition: transform 0.35s ease;
+}
+
+
+/*text-toggle3*/
+
+#text-toggle3{
+    display: none;
+}
+
+#text-toggle3:checked ~ .rol{
+    display: block;
+}
+
+#text-toggle3:checked ~ .text-arrow3 i {
+    transform: rotate(90deg) scale(3);
+}
+
+.text-arrow3{
+    
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 350px;
+}
+
+.text-arrow3 i{
+    color: #ffc800c0;
+    transform: rotate(0deg) scale(3);
+    transition: transform 0.35s ease;
+}
+
+
+/*tekst*/
+
+.extra-space{
+    display: block;
+    height: 35px;
+}
+
+h4{
+    font-family: LGC;
+}
+
+/*intro*/
+.intro{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 275px;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+/*titles*/
+.title1{
+    font-size: 50px;
+    margin-top: -40px;
+    margin-left: 400px;
+    margin-bottom: 75px;
+    font-family: LGC;
+    color: #ffc800c0;
+}
+
+.title2{
+    font-size: 50px;
+    margin-top: -45px;
+    margin-left: 400px;
+    margin-bottom: 75px;
+    font-family: LGC;
+    color: #ffc800c0;
+}
+
+.title3{
+    font-size: 50px;
+    margin-top: -40px;
+    margin-left: 400px;
+    font-family: LGC;
+    color: #ffc800c0;
+}
+
+
+
+/*mijn visie*/
+
+.visie{
+    margin-left: 400px;
+    margin-right: 450px;
+    display:none;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+/*levenswaarden*/
+.levenswaarden{
+    margin-left: 400px;
+    margin-right: 450px;
+    display: none;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+/*rol*/
+.rol{
+    margin-left: 400px;
+    margin-right: 450px;
+    display: none;
+    font-size: 17px;
+   
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    background-color: #4e8557a6;
+    line-height: 15px;
+    font-family: LGC;
+    padding: 15px;
+    font-size: 15px;
+    position: relative;
+    left:8px;
+    top:29px 
+}
+
+.icons img{
+    height: 30px;
+    width: auto;
+    margin-top: -1px;
+}
+
+}
+
+/*---------KLEIN SCHERM ----------*/
+
+@media (max-width: 989px){
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    display: none;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+#menu-toggle:checked + .hamburger + .ham-menu {
+    display: block;
+    width: 150px;
+    background-color: #4E8557;
+    height: 100vh;
+    transform: translateX(0);
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+    font-size: 50px;
+    background-color: #4E8557;
+    height: 100vh;
+    width: 100px;
+    text-align: center;
+    padding-top: 55px;
+    margin-top: -60px;
+    margin-left: -20px;
+    position: fixed;
+    
+}
+
+.hamburger i, .hamburger img {
+    position: fixed;
+    
+}
+
+.hamburger i{
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.hamburger img{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+
+.ham-menu{
+    
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: #4E8557;
+    height: 20vh;
+    font-family: LGC;
+    transition: 0.28s ease-in-out;
+    transform: translateX(-100%);
+    font-size: 10.8px;
+}
+
+/*nav binnen ham-menu*/
+
+.nav-ham-menu{
+    margin-top: 50px;
+}
+
+.nav-ham-menu h1 a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+/* Sluitknop in menu */
+.close-btn {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  cursor: pointer;
+  padding-inline: 20px;
+  padding-top: 20px;
+}
+
+img{
+    width:50px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.logo-ham{
+    width: 75px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-left: 0;
+}
+
+/*text-toggle1*/
+
+#text-toggle{
+    display: none;
+    position: relative;
+    left: 300px;
+    top: -575px;
+}
+
+
+
+#text-toggle:checked ~ .visie{
+    display: block;
+
+    
+}
+
+#text-toggle:checked ~ .text-arrow1 i {
+    transform: rotate(90deg) scale(1.5);
+}
+
+
+.text-arrow1{
+    cursor: pointer;
+    position: relative;
+    left: 160px;
+    top: -120px;
+    
+}
+
+.text-arrow1 i{
+    color: #ffc800c0;
+    transform: rotate(0deg) scale(1.5);
+    transition: transform 0.35s ease;
+}
+
+/*text-toggle2*/
+
+#text-toggle2{
+    display: none;
+}
+
+#text-toggle2:checked ~ .levenswaarden{
+    display: block;
+}
+
+#text-toggle2:checked ~ .text-arrow2 i {
+    transform: rotate(90deg) scale(1.5);
+}
+
+.text-arrow2{
+    cursor: pointer;
+    position: relative;
+    left: 160px;
+    top: -120px;
+}
+
+.text-arrow2 i{
+    color: #ffc800c0;
+    transform: rotate(0deg) scale(1.5);
+    transition: transform 0.35s ease;
+}
+
+
+/*text-toggle3*/
+
+#text-toggle3{
+    display: none;
+}
+
+#text-toggle3:checked ~ .rol{
+    display: block;
+}
+
+#text-toggle3:checked ~ .text-arrow3 i {
+    transform: rotate(90deg) scale(1.5);
+}
+
+.text-arrow3{
+    
+    cursor: pointer;
+    position: relative;
+    left: 160px;
+    top: -120px;
+}
+
+.text-arrow3 i{
+    color: #ffc800c0;
+    transform: rotate(0deg) scale(1.5);
+    transition: transform 0.35s ease;
+}
+
+
+/*tekst*/
+
+.extra-space{
+    display: block;
+    height: 35px;
+}
+
+h4{
+    font-family: LGC;
+}
+
+/*intro*/
+.intro{
+    position: relative;
+    top: 75px;
+    left: 155px;
+    margin-right: 150px;
+    font-size: 12px;
+    margin-bottom: 325px;
+}
+
+/*titles*/
+.title1{
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+    top: -155px;
+    font-family: LGC;
+    color: #ffc800c0;
+    
+}
+
+.title2{
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+    top: -155px;
+    font-family: LGC;
+    color: #ffc800c0;
+    
+}
+
+.title3{
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+    top: -155px;
+    font-family: LGC;
+    color: #ffc800c0;
+    
+}
+
+
+
+/*mijn visie*/
+
+.visie{
+    position: relative;
+    left: 155px;
+    top: -155px;
+    margin-right: 175px;
+    display:none;
+    font-size: 12px;
+    
+}
+
+/*levenswaarden*/
+.levenswaarden{
+    position: relative;
+    left: 155px;
+    top: -155px;
+    margin-right: 175px;
+    display: none;
+    font-size: 12px;
+    
+}
+
+/*rol*/
+.rol{
+    position: relative;
+    left: 155px;
+    top: -155px;
+    margin-right: 175px;
+    display: none;
+    font-size: 12px;
+  
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    background-color: #4e8557a6;
+    line-height: 15px;
+    font-family: LGC;
+    padding: 15px 15px 15px 85px;
+    font-size: 8px;
+    position: relative;
+    top: 15px;
+    left:8px;
+    
+}
+.icons img{
+    height: 30px;
+    width: auto;
+    margin-top: -1px;
+}
+
+
+}
