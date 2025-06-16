@@ -353,6 +353,29 @@ header{
     display: none;
 }
 
+
+/*taal-menu*/
+.taal-menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: 265px;
+    font-weight: bold;
+    font-family: LGC;
+    left: 200px;
+    top: 10px;
+    background-color: #4e855743;
+    color: black;
+    overflow-x: hidden;
+}
+
+.taal-menu a{
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    
+}
+
 #menu-toggle{
     display: none;
 }
@@ -473,8 +496,8 @@ img{
 .text-arrow1{
     cursor: pointer;
     position: relative;
-    left: 160px;
-    top: -120px;
+    left: 170px;
+    top: -127px;
     
 }
 
@@ -501,8 +524,8 @@ img{
 .text-arrow2{
     cursor: pointer;
     position: relative;
-    left: 160px;
-    top: -120px;
+    left: 170px;
+    top: -127px;
 }
 
 .text-arrow2 i{
@@ -530,8 +553,8 @@ img{
     
     cursor: pointer;
     position: relative;
-    left: 160px;
-    top: -120px;
+    left: 170px;
+    top: -127px;
 }
 
 .text-arrow3 i{
@@ -564,7 +587,7 @@ h4{
 
 /*titles*/
 .title1{
-    font-size: 20px;
+    font-size: 14px;
     position: relative;
     left: 200px;
     top: -155px;
@@ -574,7 +597,7 @@ h4{
 }
 
 .title2{
-    font-size: 20px;
+    font-size: 14px;
     position: relative;
     left: 200px;
     top: -155px;
@@ -584,7 +607,7 @@ h4{
 }
 
 .title3{
-    font-size: 20px;
+    font-size: 14px;
     position: relative;
     left: 200px;
     top: -155px;

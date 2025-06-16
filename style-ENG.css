@@ -202,6 +202,29 @@ header{
     display: none;
 }
 
+
+/*taal-menu*/
+.taal-menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: 265px;
+    font-weight: bold;
+    font-family: LGC;
+    left: 200px;
+    top: 10px;
+    background-color: #4e855743;
+    color: black;
+    overflow-x: hidden;
+}
+
+.taal-menu a{
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    
+}
+
 #menu-toggle{
     display: none;
 }
@@ -310,6 +333,7 @@ img{
     padding: 25px;
     position: relative;
     left: 145px;
+    top: 25px;
     margin-right: 155px;
     font-size: 15px;
 }
