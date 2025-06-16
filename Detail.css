@@ -108,6 +108,22 @@ a{
     height: 100vh; 
 }
 
+/*taal-menu*/
+.taal-menu{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-family: LGC;
+    left: 1500px;
+    top: -50px;
+    background-color: #4e855743;
+}
+
+.taal-menu a{
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
 /* Sluitknop in menu */
 .close-btn {
   display: flex;
@@ -393,6 +409,8 @@ header{
     transform: translateX(-100%);
     font-size: 10.8px;
 }
+
+
 
 /*nav binnen ham-menu*/
 
